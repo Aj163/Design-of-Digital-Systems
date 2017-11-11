@@ -1,0 +1,136 @@
+$date
+	Thu Nov  2 15:56:39 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_parallel_register_4bit $end
+$var wire 4 ! out [3:0] $end
+$var reg 1 " clk $end
+$var reg 4 # in [3:0] $end
+$scope module pr4bit $end
+$var wire 1 $ clk $end
+$var wire 4 % in [3:0] $end
+$var wire 4 & out [3:0] $end
+$scope module d1 $end
+$var wire 1 $ clk $end
+$var wire 1 ' d $end
+$var reg 1 ( q $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 $ clk $end
+$var wire 1 ) d $end
+$var reg 1 * q $end
+$upscope $end
+$scope module d3 $end
+$var wire 1 $ clk $end
+$var wire 1 + d $end
+$var reg 1 , q $end
+$upscope $end
+$scope module d4 $end
+$var wire 1 $ clk $end
+$var wire 1 - d $end
+$var reg 1 . q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+b0 &
+b0 %
+1$
+b0 #
+1"
+b0 !
+$end
+#7000
+0"
+0$
+#14000
+1"
+1$
+#20000
+1'
+1+
+b101 #
+b101 %
+#21000
+0"
+0$
+#28000
+1(
+1,
+b101 !
+b101 &
+1"
+1$
+#35000
+0"
+0$
+#40000
+0'
+1)
+b110 #
+b110 %
+#42000
+1*
+0(
+b110 !
+b110 &
+1"
+1$
+#49000
+0"
+0$
+#56000
+1"
+1$
+#60000
+0+
+1-
+b1010 #
+b1010 %
+#63000
+0"
+0$
+#70000
+1.
+0,
+b1010 !
+b1010 &
+1"
+1$
+#77000
+0"
+0$
+#80000
+1'
+1+
+b1111 #
+b1111 %
+#84000
+1(
+1,
+b1111 !
+b1111 &
+1"
+1$
+#91000
+0"
+0$
+#98000
+1"
+1$
+#100000

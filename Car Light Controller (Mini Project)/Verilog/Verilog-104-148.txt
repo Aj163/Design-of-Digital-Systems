@@ -1,0 +1,24 @@
+CAR LIGHT CONTROLLER
+
+DDS (CO 202) Mini Project
+	-Ashwin Joisa (16CO104)
+	-Tejas R (16CO148)
+
+
+1. Open terminal.
+2. To compile and produce the executable file use the command :
+	iverilog -o VerilogBM-104-148.vvp VerilogBM-104-148.v Verilog-104-148.v   :   BEHAVIORAL MODELLING
+	iverilog -o VerilogDM-104-148.vvp VerilogDM-104-148.v Verilog-104-148.v   :   DATAFLOW MODELLING
+	iverilog -o VerilogGM-104-148.vvp VerilogGM-104-148.v Verilog-104-148.v   :   GATE MODELLING
+
+
+3. To run the code use the command :
+	vvp VerilogBM-104-148.vvp  :  BEHAVIORAL MODELLING
+	vvp VerilogDM-104-148.vvp  :  DATAFLOW MODELLING
+	vvp VerilogGM-104-148.vvp  :  GATE MODELLING
+
+4. To open GTKWAVE :
+	gtkwave VerilogBM-104-148.vcd
+
+
+
